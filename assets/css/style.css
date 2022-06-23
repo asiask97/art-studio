@@ -1,0 +1,71 @@
+html, body {
+    overflow-x: hidden
+}
+body {
+    max-width: max-content;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+nav{
+    position: absolute;
+    background-color: none;
+    z-index: 2;
+}
+#menu{
+    display: flex;
+    justify-content: space-evenly;    
+}
+#menu li{
+    list-style-type: none;
+}
+#menu li a{
+    color: black;
+    text-decoration: none;
+}
+#hero-outer{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+#hero-content{
+    margin-top: 10em;
+    max-width: 20vw;
+    z-index: 2;
+}
+
+#hero-video video{
+    height: 100vh;
+    filter: blur(0px) contrast(100%) saturate(2);
+    z-index: 1;
+}
+
+/*MOBILE*/
+@media screen and (MAX-width: 600px) {
+    #hero-outer{
+        display: inline;
+    }
+    #hero-content{
+        position: absolute;
+    }
+}
+
+/*TABLETS*/
+@media screen and (min-width: 600px) {
+
+}
+
+/*LAPTOPS*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*DESKTOPS*/
+@media screen and (min-width: 992px) {
+
+}
+
+/*LARGE DESKTOPS*/
+@media screen and (min-width: 1300px) {
+
+}
