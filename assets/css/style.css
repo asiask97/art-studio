@@ -30,10 +30,12 @@ header{
 }
 
 #hero-content{
-    margin-top: 7em;
+    margin: 50px 0 0 10px;
     position: absolute;
     z-index: 2;
-    max-width: 30vw;
+    max-width: 80vw;
+    min-width: 50vw;
+    max-height: 100vh;
 }
 
 #hero-content h1{
@@ -47,22 +49,40 @@ header{
     font-family: 'Montserrat', sans-serif;
 }
 
+#hero-content button{
+    border: 1px solid rgb(226, 193, 187);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(109, 77, 72);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
 #hero-video video{
     height: 100vh;
     filter: blur(0px) contrast(100%) saturate(2);
     z-index: 1;
 }
 
-
-/*TABLETS*/
-@media screen and (min-width: 600px) {
-
-    
-}
-
+/* ----- MOBILE FIRST DESIGN -----*/
 /*SMALL DEVICES*/
-@media screen and (min-width: 600px) {
-
+@media screen and (max-width: 280px) {
+    #hero-content h1{
+        font-size: 4em;
+    }
+}
+/*SMALL DEVICES*/
+@media screen and (min-width: 768px) {
+    #hero-content{
+        max-width: 30vh;
+    }
+    #hero-content h1{
+        font-size: 8em;
+    }
 }
 
 /*DESKTOPS*/
@@ -76,6 +96,7 @@ header{
         position: relative;
         left: 0%;
         min-width: 30vw;
+        max-width: 30vh;
         left: 50px;
     }
     #hero-content h1{
