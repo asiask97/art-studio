@@ -404,8 +404,11 @@ footer img{
         left: 10vw;
     }
     #hero-content h1{
-        font-size: 21vw;
-        padding-top: 20px;
+        font-size: 15vw !important;
+        padding-top: 30px;
+    }
+    #hero-content p{
+        font-size: 2vw !important;
     }
 
     .aboutUs-item p{
@@ -420,10 +423,10 @@ footer img{
 @media screen and (min-width: 1000px) {
 
     #hero-content h1{
-        font-size: 190px !important;
+        font-size: 150px !important;
     }
     #hero-content-container p{
-        font-size: 25px !important;
+        font-size: 20px !important;
         margin-top: 0;
         margin-bottom: 10px;
     }
