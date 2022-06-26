@@ -36,9 +36,9 @@
             <h1>LEARN HOW TO PAINT</h1>
             <div id="hero-content-container">
                 <p>You want to learn and we want to teach you. We have classes that would suit anyone in wonderful city of Dublin. Drop us a message and book today!</p>
-                <a href="#contactUs-outer">
+                <form action="#contactUs-outer">
                     <button>CONTACT US</button>
-                </a>
+                </form>
             </div>
         </div>
        <div id="hero-video">
@@ -52,8 +52,10 @@
         <h2>ABOUT US</h2>
         <div id="aboutUs-content">
             <div id="sticky">
-                <img src="assets/images/aboutUs-img1.jpg"/>
-                <button>BOOK A CLASS</button>
+                <img src="assets/images/aboutUs-img1.jpg" alt='Image of a girl in our studio'/>
+                <form action="gallery.html">
+                    <button>VIEW GALLERY</button>
+                </form>
             </div>
             <div class="aboutUs-item">
                 <h5>Art as a new hobby?</h5>
@@ -80,7 +82,7 @@
     <section id="contactUs-outer">
         <h2>CONTACT US</h2>
         <div id="contactUs-form">
-            <form action="" method="post">
+            <form action="post" method="post">
                 <label for="fname">Name:</label>
                 <input type="text" id="fname" name="fname" required>
                 <label for="email">Email:</label>
