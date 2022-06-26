@@ -255,6 +255,29 @@ header{
     max-height: 100%;
     background-size: cover; 
 }
+#gallery-images .image-figure{
+    margin: 0;
+}
+#gallery-images .img-caption{
+    position: relative;
+    top: -101%;
+    width: 100%;
+    height: 100%;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: .3s;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .3) 0%, rgba(255, 255 ,255 , 0) 100%);
+    display: flex;
+    justify-content: center;
+}
+#gallery-images .img-caption h1{ 
+    position: relative;
+    top: 80%;
+}
+#gallery-images .img-caption:hover{
+    opacity: 1;
+}
 
 
 
@@ -335,12 +358,18 @@ header{
         grid-template-columns: 10% 40% 40% 10%;
     }
 
+    #gallery-outer{
+        padding-top: 100px;
+    }
     #gallery-images {
         grid-template-columns: 4% 30% 30% 30% 4%;    
         gap: 0.5%;
     }
     #gallery-images #empty-row-two{
         grid-column: 5/6;
+    }
+    #gallery-images .img-caption h1{ 
+        font-size: 15px !important;
     }
 }
 
