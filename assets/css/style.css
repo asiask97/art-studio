@@ -179,7 +179,7 @@ header{
     z-index: 5;
 }
 #contactUs-form{
-    top: -10.2vw;
+    top: -5.2vw;
     padding-top: 1em;
     width: 100vw;
     background-color: rgb(255, 255, 255);
@@ -348,10 +348,10 @@ footer img{
 @media screen and (min-width: 768px) {
 
     #hero-content{
-        max-width: 30vh;
+        max-width: 80vh;
     }
     #hero-content h1{
-        font-size: 21vw;
+        font-size: 16vw !important;
     }
 
     .aboutUs-item{
@@ -400,11 +400,11 @@ footer img{
     #hero-content{
         position: relative;
         min-width: 30vw;
-        max-width: 30vh;
+        max-width: 80vh;
         left: 10vw;
     }
     #hero-content h1{
-        font-size: 15vw !important;
+        font-size: 13vw !important;
         padding-top: 30px;
     }
     #hero-content p{
@@ -421,16 +421,21 @@ footer img{
 
 /*LARGE DESKTOPS*/
 @media screen and (min-width: 1000px) {
-
+    h2, co{
+        font-size: 100px !important;
+        padding-left: 5vw !important;
+    }
     #hero-content h1{
-        font-size: 150px !important;
+        font-size: 130px !important;
     }
     #hero-content-container p{
         font-size: 20px !important;
         margin-top: 0;
         margin-bottom: 10px;
     }
-    
+    #hero-video{
+        justify-content: left;
+    }
 
     #aboutUs-content img, #aboutUs-content button{
         width: 300px;
