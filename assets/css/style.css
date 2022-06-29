@@ -9,11 +9,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 
 }
-/*
-font-family: 'Montserrat', sans-serif; 200 500
-font-family: 'Nunito', sans-serif; 400
-*/
-
 /*  ------------ NAV BAR ------------ */
 header{
     width: 100%;
@@ -96,7 +91,7 @@ header{
 /*  ------------ ABOUT US ------------ */
 #aboutUs-outer{
     margin-top: 8em;
-    background-image: url('../images/paint-aboutUs.jpg');
+    background-image: url('../images/paint-aboutUs.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
