@@ -63,7 +63,7 @@ header{
 #hero-content h1{
    padding-top: 0.2em;
    font-weight: 200;
-   font-size: 19vw !important; 
+   font-size: 19vw; 
    margin: 0;
    margin-left: 15px;
    align-self: end;
@@ -292,43 +292,6 @@ footer img{
 }
 
 /* ----- MOBILE FIRST DESIGN -----*/
-/*GOOGLE NEST HUB */
-@media screen and (max-height: 800px) and (width: 1024px) {
-    #hero-content h1{
-        font-size: 5em !important;
-    }
-    #hero-content{
-        position: absolute;
-        margin-left: 18vw;
-        padding-top: 50px;
-    }
-    #hero-video{
-        width: 100vw;
-        height: 100vh;
-        justify-content: left;
-        display: flex;  
-    }
-    #hero-content-container p{
-        font-size: 0.9em !important;
-    }
-}
-/*GOOGLE NEST HUB MAX*/
-@media screen and (max-height: 800px) and (min-width: 1280px) {
-    #hero-content h1{
-        font-size: 7em !important;
-    }
-    #hero-content{
-        margin-left: 10vw;
-        margin-top: 5vw;
-    }
-    #hero-video{
-        justify-content: left;
-        display: flex;  
-    }
-    #hero-content-container p{
-        font-size: 0.9em;
-    }
-}
 
 /*VERY SMALL DEVICES -- GLAXY FOLD*/
 @media screen and (max-width: 280px) {
@@ -418,7 +381,7 @@ footer img{
 
 /*LARGE DESKTOPS*/
 @media screen and (min-width: 1000px) {
-    h2, co{
+    h2{
         font-size: 100px !important;
         padding-left: 5vw !important;
     }
