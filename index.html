@@ -52,7 +52,11 @@
         <h2>ABOUT US</h2>
         <div id="aboutUs-content">
             <div id="sticky">
-                <img src="assets/images/aboutUs-img1.webp" alt='Image of a girl in our studio'/>
+                <picture>
+                    <source srcSet="assets/images/aboutUs-img1.avif" type="image/avif" />
+                    <source srcSet="assets/images/aboutUs-img1.webp" type="image/webp" />
+                    <img loading="lazy" src="assets/images/aboutUs-img1.jpg" alt="Image of a girl in our studio" />
+                </picture>
                 <form action="gallery.html">
                     <button>VIEW GALLERY</button>
                 </form>
@@ -97,25 +101,25 @@
         </div>
     </section> 
     <footer>
-        <ul class="social-networks">
+        <ul>
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
-                    <img src="assets/images/facebook.svg" alt='facebook logo'/>
+                    <img width='20px' height='20px'src="assets/images/facebook.svg" alt='facebook logo'/>
                 </a>
             </li>
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">
-                    <img src="assets/images/instagram.svg" alt='instagram logo'/>
+                    <img width='20px' height='20px'src="assets/images/instagram.svg" alt='instagram logo'/>
                 </a>
             </li>
             <li>
                 <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)">
-                    <img src="assets/images/linkedin.svg" alt='linkedin logo'/>
+                    <img width='20px' height='20px'src="assets/images/linkedin.svg" alt='linkedin logo'/>
                 </a>
             </li>
             <li>
                 <a href="https://whatsapp.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
-                    <img src="assets/images/whatsapp.svg" alt='whatsapp logo'/>
+                    <img width='20px' height='20px'src="assets/images/whatsapp.svg" alt='whatsapp logo'/>
                 </a>
             </li>
         </ul>
