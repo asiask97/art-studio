@@ -131,7 +131,7 @@ header{
 #aboutUs-outer{
     margin-top: 8em;
     background-color: #ffe4ce;
-    
+    padding-bottom: 2vw;  
 }
 #aboutUs-outer h2{
     color: black;
@@ -141,15 +141,29 @@ header{
     margin: 2em 0 0 0 ;
     z-index: -2;
 }
-#aboutUs-content{
-    
+#aboutUs-outer #aboutUs-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
 }
+#aboutUs-outer #main-text{
+    grid-column: 2/3;
+    margin-top: 0;
+}
+#aboutUs-outer #classes h3{
+    font-size: 1.6em;
+}
+#aboutUs-outer #classes{
+    grid-column: 2/3;
+    display: grid;
+}
+
 
 
 /*  ------------ ONLINE CLASSES ------------ */
 #onlineClasses-outer{
     margin-bottom: 5em;
-    margin-top: -10vw;
+    margin-top: -7vw;
 }
 
 #onlineClasses-outer h2{
@@ -366,21 +380,10 @@ footer img{
         width: 400px;
     }
 
-    .aboutUs-item{
-        grid-column: 2/3;
-    }
-    .aboutUs-item p{
-        font-size: 2vw;
-    }
-    .aboutUs-item h5{
-        font-size: 4vw;
-    }
-    #aboutUs-content #sticky{
-        grid-column: 3/4;
-        grid-row: 1/6;
-    }
-    #aboutUs-content{
-        grid-template-columns: 10% 40% 40% 10%;
+    #aboutUs-outer #classes{
+
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em
     }
 
     #gallery-outer{
@@ -445,13 +448,6 @@ footer img{
         width: 150px;
     }
 
-
-    .aboutUs-item p{
-        font-size: 19px;
-    }
-    .aboutUs-item h5{
-        font-size: 36px;
-    }
 }
 
 /*LARGE DESKTOPS*/
@@ -470,10 +466,6 @@ footer img{
     }
     #hero-video{
         justify-content: left;
-    }
-
-    #aboutUs-content img, #aboutUs-content button{
-        width: 300px;
     }
 
     #gallery-images {
@@ -496,7 +488,4 @@ footer img{
         width: 200px;
     }
 
-    #aboutUs-content{
-        grid-template-columns: auto 544px 400px auto !important;
-    }
 }
