@@ -149,6 +149,9 @@ header{
 #aboutUs-outer #main-text{
     grid-column: 2/3;
     margin-top: 0;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid grey;
 }
 #aboutUs-outer #classes h3{
     font-size: 1.6em;
@@ -157,8 +160,6 @@ header{
     grid-column: 2/3;
     display: grid;
 }
-
-
 
 /*  ------------ ONLINE CLASSES ------------ */
 #onlineClasses-outer{
@@ -381,9 +382,8 @@ footer img{
     }
 
     #aboutUs-outer #classes{
-
         grid-template-columns: 1fr 1fr;
-        grid-gap: 1em
+        grid-gap: 5em
     }
 
     #gallery-outer{
