@@ -7,13 +7,15 @@
 <br/>
 
 # Table of Contents 
-1. [Introduction](#-Introduction)
-2. [User Stories](#-User-Stories)
-3. [Features](#-Features)
-4. [UX](#-UX)
-5. [Testing](#-Testing)
-6. [Credits](#-Credits)
-7. [Deployment](#-Deployment)
+* [Introduction](#introduction)
+* [User Stories](#user-stories)
+* [Features](#features)
+* [UX](#ux)
+* [Testing](#testing)
+* [Credits](#credits)
+* [Deployment](#deployment)
+
+<br/>
 
 # Introduction 
 Art Studio is a small project that displays my knowledge of CSS and HTML as well as ability of designing unique and eye pleasing mobile-first website.<br/> 
