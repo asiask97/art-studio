@@ -6,38 +6,72 @@
 <br/>
 <br/>
 
-# Table of Contents
-    1. Introduction 
-    2. Features
-    3. UX 
-    4. Testing
-    5. Credits
-    6. Deployment
+# Table of Contents 
+1. [Introduction](#-Introduction)
+2. [User Stories](#-User-Stories)
+3. [Features](#-Features)
+4. [UX](#-UX)
+5. [Testing](#-Testing)
+6. [Credits](#-Credits)
+7. [Deployment](#-Deployment)
 
 # Introduction 
-Art Studio is a small project that displays my knowledge of CSS and HTML as well as ability of designing unique and eye pleasing mobile-first webiste.<br/>
-During the design stages I kept in mind the target audience which includes people who enjoy art and design. This is the reason why I have tried to keep the design modern and fresh. The whole website is company's business card which is why I only included the most relevant information which tells the visitor who the companyis, what they do and lets them contact the owner. 
+Art Studio is a small project that displays my knowledge of CSS and HTML as well as ability of designing unique and eye pleasing mobile-first website.<br/> 
 
-**Time frame to finish this project was about 15-20 hours.**
+During the design stages I kept in mind the target audience which includes people who enjoy art and design. This is the reason why I have tried to keep the design modern and fresh. The whole website is the company's business card, which is why I only included the most relevant information which tells the visitor who the company is, what they do and lets them contact the owner. 
+
+**Time frame to finish this project was about 15-25 hours.**
 <br/>
 <br/>
 
 
+# User Stories
+### Some of user stories that got completed 
 
+| #           | User Story      
+| ----------- | ------------- 
+| 1           | As a user I want to be able to easily navigate using the nav bar at the top of the page          
+| 2           | As a user I want to be able to quickly find contact section       
+| 3           | As a user I want to know what services the company provides        
+| 4           | As a user I want to be able to find the company on a map            
+| 5           | As a user I want to have an easy to use contact form            
+| 6           | As a user I want to enjoy the aesthetics of the website           
+| 7           | As a user I want to see gallery of images in high enough resolution not to see pixels           
+| 8           | As a user I want to be able to watch a video of sample online class           
+| 9           | As a user I want to find the company on social media           
+| 10          | As a user I want to make sure that load times are as minimal as possible    
+| 11          | As an owner I want to display my business in the best way possible        
+| 12          | As an owner I want to have an original website  
+
+<br/>
+<br/>
+
+### Some of user stories are planned for next sprint
+
+| #           | User Story      
+| ----------- | ------------- 
+| 1           | As a user I want to book a class though the website          
+| 2           | As a user I want to see all the schedules of classes    
+| 3           | As an owner I want to be able to accept or reject clients    
+| 4           | As an owner I want to let users register for newsletters           
+| 5           | As an owner I want to have feedback from clients displayed on my page             
+
+<br/>
+<br/>
 
 # Features
 ## Navbar
-I have decided to create a very simple navigation bar at the top with transparent background so the user is able to see and experience the hero video clearly with no interruptions. First 3 buttons on navbar take the user to a specific section of the page, where as the last one takes the user to another page with only the gallery.
-
+I have decided to create a quite simple navigation bar at the top with transparent background, so the user is able to see and experience the hero video clearly with no interruptions.  All 5 buttons on navbar take the user to a specific section of the page. 
 <img src='documentation/navbar.png' alt='Image of navigation bar'>
 
 ## Heros section
-Heros section is the heart of this website, I tried to make it interesting enough so the user will want to stay longer and find out whats this business is about. Very simple and minimalistic call to action gets a message across of what exactly this business does. The video in the background looks very interesting on a mobile but it also fit the minimalistic aesthetic on desktop.
-
+The hero section is the heart of this website, I tried to make it interesting enough so the user will want to stay longer and find out what this business is about. Quite simple and minimalistic call to action gets a message across of what exactly this business does. The video in the background looks interesting on a mobile but it also fits the minimalistic aesthetic on desktop. 
 
 The button takes the user straight down to contact form.
 
 <img src='documentation/heros-section.png' alt='image of heros section'>
+
+## 
 
 ## About Us
 The About Us section very shortly covers all relevant information that the business provides. On the right it also contains one of the images which advertise the compnay. It moves while the user is scrolling down to catch attention. See the gif below.
