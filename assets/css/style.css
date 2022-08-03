@@ -332,6 +332,14 @@ header{
     font-size: 0.5em !important
 }
 
+/*  ------------ POST ------------ */
+#post{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*  ------------ FOOTER ------------ */
 footer ul{
