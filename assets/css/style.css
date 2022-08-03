@@ -199,6 +199,7 @@ header{
     width: 80%;
     font-size: 0.5em !important;   
     height: 500px;
+    border: none;
 
 }
 
@@ -264,7 +265,6 @@ header{
 
 /*  ------------ CONTACT US ------------ */
 #contactUs-outer{
-    margin-top: em;
     z-index: 5;
     background-color: rgb(255, 255, 255);
 }
