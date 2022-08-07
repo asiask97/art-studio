@@ -213,7 +213,7 @@ Throughout my testing I encountered a few minor issues:
         alt="Image of a painting in art studio" /> 
 </picture>
 ```
-- To hide overflow on whole body element but to keep its descendant element with position sticky working I have used **overflow-x: clip;**. This solution worked perfectly.
+- For very small screens(around 200px width) I have used special media quiery to make the content be displayed correctly for every user.
 
 - Could increase performance on mobile with JavaScript but I did not want to include it in my project 
 
