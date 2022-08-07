@@ -217,6 +217,8 @@ Throughout my testing I encountered a few minor issues:
 
 - Could increase performance on mobile with JavaScript but I did not want to include it in my project 
 
+- I'm sometimes working on two computers so an merge issue happened where more files where on github that on my computer. Problem was solved by mergin with main branch and them commiting all my files.
+
 # Credits
 Throughout this project I have tried to maintain its simplicity to show that I am more than able to design a not so simple website with only CSS and HTML in a short amount of time. My other projects show many more advanced skills, but I felt like it is good to show the ability to use the simplest tools in a correct way. 
 
