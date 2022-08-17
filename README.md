@@ -131,6 +131,7 @@ After the form is submitted a screen appears so the user knows that form was sen
 <br/>
 <br/>
 <br/>
+
 # UX
 My main goal though-out this project was to create a website in a short amount of time (a couple of hours) which will allow the user to find the most relevant information about a business of my choice and represent its nature and through aesthetic and design but remain as original as possible. 
  
